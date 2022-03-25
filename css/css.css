@@ -162,7 +162,7 @@
 		font-family: 'Open Sans', sans-serif;
 		text-align: center;
 	}
-	.card__img {
+	.features__card .card__img {
 		background: no-repeat url(../img/IconColorful.png);
 		width: 110px;
 		height: 110px;
@@ -395,7 +395,7 @@
 		font-family: 'Open Sans', sans-serif;
 		text-align: center;
 	}
-	.card__img {
+	.features__card .card__img {
 		background: no-repeat url(../img/IconColorful.png);
 		width: 110px;
 		height: 110px;
@@ -629,7 +629,7 @@
 		font-family: 'Open Sans', sans-serif;
 		text-align: center;
 	}
-	.card__img {
+	.features__card .card__img {
 		background: no-repeat url(../img/IconColorful.png);
 		width: 110px;
 		height: 110px;
@@ -922,7 +922,7 @@
 		font-family: 'Open Sans', sans-serif;
 		text-align: center;
 	}
-	.card__img {
+	.features__card .card__img {
 		background: no-repeat url(../img/IconColorful.png);
 		width: 110px;
 		height: 110px;
@@ -1210,7 +1210,7 @@
 		font-family: 'Open Sans', sans-serif;
 		text-align: center;
 	}
-	.card__img {
+	.features__card .card__img {
 		background: no-repeat url(../img/IconColorful.png);
 		width: 110px;
 		height: 110px;
@@ -1499,7 +1499,7 @@
 		font-family: 'Open Sans', sans-serif;
 		text-align: center;
 	}
-	.card__img {
+	.features__card .card__img {
 		background: no-repeat url(../img/IconColorful.png);
 		width: 110px;
 		height: 110px;
@@ -1781,7 +1781,7 @@
 		font-family: 'Open Sans', sans-serif;
 		text-align: center;
 	}
-	.card__img {
+	.features__card .card__img {
 		background: no-repeat url(../img/IconColorful.png);
 		width: 110px;
 		height: 110px;
