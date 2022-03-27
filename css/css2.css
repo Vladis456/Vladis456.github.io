@@ -191,6 +191,146 @@
 			.card__description .card__text {
 				font-size: 18px;
 			}
+				/* -----------------------------------Prices------------------------------------------ */
+		.main__prices {
+			margin-left: 156px;
+			margin-right: 156px;
+			padding-bottom: 156px;
+		}
+		.main__item:nth-child(5) {
+			margin-bottom: 32px;
+		}
+		.price {
+			display: flex;
+			justify-content: center;
+			padding-top: 25px;
+			align-items: flex-start;
+			gap: 4px;
+		}
+		.main__prices .main__title {
+			padding-top: 64px;
+		}
+		.main__prices .main__subtitle{
+			margin-left: 250px;
+			margin-right: 250px;
+		}
+		.price__dollars {
+			display: flex;
+			gap: 3px;
+		}
+		.price__cents {
+			display: flex;
+			flex-direction: column;
+		}
+		.price__name {
+			color: #7a7a8a;
+			font-family: 'Poppins', sans-serif;
+			font-size: 25px;
+			text-align: center;
+			font-weight: bold;
+			padding-top: 24px;
+		}
+		.price__card:nth-child(1), .price__card:nth-child(2), .price__card:nth-child(3), .price__card:nth-child(4)  {
+			margin-top: 64px;
+		}
+		.price__card {
+			background-color: #f1f2f5;
+			border-radius: 5px;
+			padding-bottom: 24px;
+			width: 282px;
+			display: flex;
+			flex-direction: column;
+		}
+		
+		.price__dollar {
+			font-size: 20px;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+			font-weight: bold;
+			align-self: center;
+		}
+		.price__number {
+			font-size: 39.06px;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+			font-weight: bold;
+		}
+		.price__cent {
+			font-weight: bold;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+		}
+		.price__date {
+			font-size: 12.8px;
+			font-family: 'Open Sans', sans-serif;
+			color: #545569;
+		}
+		.price__cents {
+			align-self: center;
+		}
+		.price__benefits {
+			padding-top: 40px;
+			display: flex;
+			flex-direction: column;
+			row-gap: 20px;
+			
+		}
+		.benefit {
+			font-size: 13.5px;
+			font-family: 'Open Sans', sans-serif;
+			color: #545569;
+			
+			margin-left: 34px;
+			margin-right: 24px;
+		}
+		.benefit:last-child {
+			margin-bottom: 0px;
+		}
+		.benefit::before {
+			content: url(../img/Grey_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.price__card:nth-child(3) .benefit::before {
+			content: url(../img//Blue_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.price__card:nth-child(3) .benefit:last-child::before{
+			content: url(../img//Grey_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		
+		.price__btn .btn__text{
+			background-color: #e4e7ec;
+			
+			width: 234px;
+			margin-top: 40px;
+			padding-top: 12px;
+			padding-bottom: 12px;
+			border-radius: 5px;
+			text-decoration: none;
+		}
+		.price__btn {
+			text-decoration: none;
+			align-self: center;
+		}
+		.price__card-container {
+			display: flex;
+			flex-wrap: wrap;
+			column-gap: 24px;
+			row-gap: 8px;
+			justify-content: center;
+			
+			align-items: center;
+		}
+		.main__item:nth-child(5) {
+			margin-top: 32px;
+		}
 }
 @media only screen
 	and (min-device-width: 1200px)
@@ -382,6 +522,149 @@
 			.card__information .card__title .title__text {
 				font-size: 31.25px;
 			}
+			/* -----------------------------------Prices------------------------------------------ */
+		.main__prices {
+			margin-left: 100px;
+			margin-right: 100px;
+			padding-bottom: 64px;
+		}
+		.main__item:nth-child(5) {
+			margin-bottom: 32px;
+		}
+		.price {
+			display: flex;
+			justify-content: center;
+			padding-top: 25px;
+			align-items: flex-start;
+			gap: 4px;
+		}
+		.main__prices .main__title {
+			padding-top: 64px;
+		}
+		.main__prices .main__subtitle{
+			margin-left: 100px;
+			margin-right: 100px;
+		}
+		.price__dollars {
+			display: flex;
+			gap: 3px;
+		}
+		.price__cents {
+			display: flex;
+			flex-direction: column;
+		}
+		.price__name {
+			color: #7a7a8a;
+			font-family: 'Poppins', sans-serif;
+			font-size: 25px;
+			text-align: center;
+			font-weight: bold;
+			padding-top: 24px;
+		}
+		.price__card:nth-child(1), .price__card:nth-child(2)  {
+			margin-top: 64px;
+		}
+		.price__card {
+			background-color: #f1f2f5;
+			border-radius: 5px;
+			padding-bottom: 24px;
+			width: 311px;
+			display: flex;
+			flex-direction: column;
+		}
+		.price__card:nth-child(3), .price__card:nth-child(4) {
+			margin-top: 16px;
+		}
+		.price__dollar {
+			font-size: 20px;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+			font-weight: bold;
+			align-self: center;
+		}
+		.price__number {
+			font-size: 39.06px;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+			font-weight: bold;
+		}
+		.price__cent {
+			font-weight: bold;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+		}
+		.price__date {
+			font-size: 12.8px;
+			font-family: 'Open Sans', sans-serif;
+			color: #545569;
+		}
+		.price__cents {
+			align-self: center;
+		}
+		.price__benefits {
+			padding-top: 40px;
+			display: flex;
+			flex-direction: column;
+			row-gap: 20px;
+			
+		}
+		.benefit {
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+			color: #545569;
+			
+			margin-left: 34px;
+			margin-right: 24px;
+		}
+		.benefit:last-child {
+			margin-bottom: 0px;
+		}
+		.benefit::before {
+			content: url(../img/Grey_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.price__card:nth-child(3) .benefit::before {
+			content: url(../img//Blue_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.price__card:nth-child(3) .benefit:last-child::before{
+			content: url(../img//Grey_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		
+		.price__btn .btn__text{
+			background-color: #e4e7ec;
+			margin-left: 24px;
+			margin-right: 24px;
+			
+			margin-top: 40px;
+			padding-top: 12px;
+			padding-bottom: 12px;
+			border-radius: 5px;
+			text-decoration: none;
+		}
+		.price__btn {
+			text-decoration: none;
+			align-self: center;
+		}
+		.price__card-container {
+			display: flex;
+			flex-wrap: wrap;
+			column-gap: 24px;
+			row-gap: 8px;
+			justify-content: center;
+			
+			align-items: center;
+		}
+		.main__item:nth-child(5) {
+			margin-top: 32px;
+		}
 		
 }
 @media only screen
@@ -574,6 +857,146 @@
 		.card__information .card__title .title__text {
 			font-size: 31.25px;
 		}
+		.main__prices {
+			margin-left: 64px;
+			margin-right: 64px;
+			padding-bottom: 64px;
+		}
+		.main__item:nth-child(5) {
+			margin-bottom: 32px;
+		}
+		.price {
+			display: flex;
+			justify-content: center;
+			padding-top: 25px;
+			align-items: flex-start;
+			gap: 4px;
+		}
+		.main__prices .main__title {
+			padding-top: 64px;
+		}
+		.main__prices .main__subtitle{
+			margin-left: 100px;
+			margin-right: 100px;
+		}
+		.price__dollars {
+			display: flex;
+			gap: 3px;
+		}
+		.price__cents {
+			display: flex;
+			flex-direction: column;
+		}
+		.price__name {
+			color: #7a7a8a;
+			font-family: 'Poppins', sans-serif;
+			font-size: 25px;
+			text-align: center;
+			font-weight: bold;
+			padding-top: 24px;
+		}
+		.price__card:nth-child(1), .price__card:nth-child(2)  {
+			margin-top: 64px;
+		}
+		.price__card {
+			background-color: #f1f2f5;
+			border-radius: 5px;
+			padding-bottom: 24px;
+			width: 311px;
+			display: flex;
+			flex-direction: column;
+		}
+		.price__card:nth-child(3), .price__card:nth-child(4) {
+			margin-top: 16px;
+		}
+		.price__dollar {
+			font-size: 20px;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+			font-weight: bold;
+			align-self: center;
+		}
+		.price__number {
+			font-size: 39.06px;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+			font-weight: bold;
+		}
+		.price__cent {
+			font-weight: bold;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+		}
+		.price__date {
+			font-size: 12.8px;
+			font-family: 'Open Sans', sans-serif;
+			color: #545569;
+		}
+		.price__cents {
+			align-self: center;
+		}
+		.price__benefits {
+			padding-top: 40px;
+			display: flex;
+			flex-direction: column;
+			row-gap: 20px;
+			
+		}
+		.benefit {
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+			color: #545569;
+			
+			margin-left: 34px;
+			margin-right: 24px;
+		}
+		.benefit:last-child {
+			margin-bottom: 0px;
+		}
+		.benefit::before {
+			content: url(../img/Grey_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.price__card:nth-child(3) .benefit::before {
+			content: url(../img//Blue_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.price__card:nth-child(3) .benefit:last-child::before{
+			content: url(../img//Grey_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		
+		.price__btn .btn__text{
+			background-color: #e4e7ec;
+			margin-left: 24px;
+			margin-right: 24px;
+			
+			margin-top: 40px;
+			padding-top: 12px;
+			padding-bottom: 12px;
+			border-radius: 5px;
+			text-decoration: none;
+		}
+		.price__btn {
+			text-decoration: none;
+			align-self: center;
+		}
+		.price__card-container {
+			display: flex;
+			flex-wrap: wrap;
+			column-gap: 24px;
+			row-gap: 8px;
+			justify-content: center;
+		}
+		.main__item:nth-child(5) {
+			margin-top: 32px;
+		}
 }
 @media only screen
 	and (min-device-width: 768px)
@@ -762,6 +1185,134 @@
 		.card__information .card__title .title__text {
 			font-size: 25px;
 		}
+		/* -----------------------------------Prices------------------------------------------ */
+		.main__prices {
+			margin-left: 64px;
+			margin-right: 64px;
+			padding-bottom: 64px;
+		}
+		.main__item:nth-child(5) {
+			margin-bottom: 32px;
+		}
+		.price {
+			display: flex;
+			justify-content: center;
+			padding-top: 25px;
+			align-items: flex-start;
+			gap: 4px;
+		}
+		.price__dollars {
+			display: flex;
+			gap: 3px;
+		}
+		.price__cents {
+			display: flex;
+			flex-direction: column;
+		}
+		.price__name {
+			color: #7a7a8a;
+			font-family: 'Poppins', sans-serif;
+			font-size: 25px;
+			text-align: center;
+			font-weight: bold;
+			padding-top: 24px;
+		}
+		.price__card:nth-child(1), .price__card:nth-child(2)  {
+			margin-top: 64px;
+		}
+		.price__card {
+			background-color: #f1f2f5;
+			border-radius: 5px;
+			padding-bottom: 24px;
+			width: 277px;
+		}
+		.price__card:nth-child(3), .price__card:nth-child(4) {
+			margin-top: 16px;
+		}
+		.price__dollar {
+			font-size: 20px;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+			font-weight: bold;
+			align-self: center;
+		}
+		.price__number {
+			font-size: 39.06px;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+			font-weight: bold;
+		}
+		.price__cent {
+			font-weight: bold;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+		}
+		.price__date {
+			font-size: 12.8px;
+			font-family: 'Open Sans', sans-serif;
+			color: #545569;
+		}
+		.price__cents {
+			align-self: center;
+		}
+		.price__benefits {
+			padding-top: 40px;
+			display: flex;
+			flex-direction: column;
+			row-gap: 20px;
+			
+		}
+		.benefit {
+			font-size: 12.8px;
+			font-family: 'Open Sans', sans-serif;
+			color: #545569;
+			
+			margin-left: 34px;
+			margin-right: 24px;
+		}
+		.benefit:last-child {
+			margin-bottom: 0px;
+		}
+		.benefit::before {
+			content: url(../img/Grey_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.price__card:nth-child(3) .benefit::before {
+			content: url(../img//Blue_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.price__card:nth-child(3) .benefit:last-child::before{
+			content: url(../img//Grey_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.main__prices .main__title {
+			padding-top: 32px;
+		}
+		.price__btn .btn__text{
+			background-color: #e4e7ec;
+			margin-left: 24px;
+			margin-right: 24px;
+			text-align: center;
+			margin-top: 40px;
+			padding-top: 12px;
+			padding-bottom: 12px;
+			border-radius: 5px;
+			text-decoration: none;
+		}
+		.price__btn {
+			text-decoration: none;
+		}
+		.price__card-container {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 24px;
+		}
 }
 @media only screen
 	and (min-device-width: 576px)
@@ -931,6 +1482,124 @@
 		.card__information .card__title .title__text {
 			font-size: 25px;
 		}
+		/* -----------------------------------Prices------------------------------------------ */
+		.main__prices {
+			margin-left: 16px;
+			margin-right: 16px;
+		}
+		.price {
+			display: flex;
+			justify-content: center;
+			padding-top: 25px;
+			align-items: flex-start;
+			gap: 4px;
+		}
+		.price__dollars {
+			display: flex;
+			gap: 3px;
+		}
+		.price__cents {
+			display: flex;
+			flex-direction: column;
+		}
+		.price__name {
+			color: #7a7a8a;
+			font-family: 'Poppins', sans-serif;
+			font-size: 25px;
+			text-align: center;
+			font-weight: bold;
+			padding-top: 24px;
+		}
+		.price__card:nth-child(1) {
+			margin-top: 40px;
+		}
+		.price__card {
+			background-color: #f1f2f5;
+			border-radius: 5px;
+			padding-bottom: 24px;
+		}
+		.price__card:nth-child(2), .price__card:nth-child(3), .price__card:nth-child(4) {
+			margin-top: 16px;
+		}
+		.price__dollar {
+			font-size: 20px;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+			font-weight: bold;
+			align-self: center;
+		}
+		.price__number {
+			font-size: 39.06px;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+			font-weight: bold;
+		}
+		.price__cent {
+			font-weight: bold;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+		}
+		.price__date {
+			font-size: 12.8px;
+			font-family: 'Open Sans', sans-serif;
+			color: #545569;
+		}
+		.price__cents {
+			align-self: center;
+		}
+		.price__benefits {
+			padding-top: 40px;
+			display: flex;
+			flex-direction: column;
+			row-gap: 20px;
+			
+		}
+		.benefit {
+			font-size: 16px;
+			font-family: 'Open Sans', sans-serif;
+			color: #545569;
+			
+			margin-left: 34px;
+			margin-right: 24px;
+		}
+		.benefit:last-child {
+			margin-bottom: 0px;
+		}
+		.benefit::before {
+			content: url(../img/Grey_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.price__card:nth-child(3) .benefit::before {
+			content: url(../img//Blue_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.price__card:nth-child(3) .benefit:last-child::before{
+			content: url(../img//Grey_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.main__prices .main__title {
+			padding-top: 32px;
+		}
+		.price__btn .btn__text{
+			background-color: #e4e7ec;
+			margin-left: 24px;
+			margin-right: 24px;
+			text-align: center;
+			margin-top: 40px;
+			padding-top: 12px;
+			padding-bottom: 12px;
+			border-radius: 5px;
+			text-decoration: none;
+		}
+		.price__btn {
+			text-decoration: none;
+		}
 }
 @media only screen
 	and (min-device-width: 375px)
@@ -1097,6 +1766,126 @@
 		.card__btn-container {
 			display: none;
 		}
+		/* -----------------------------------Prices------------------------------------------ */
+		.main__prices {
+			margin-left: 16px;
+			margin-right: 16px;
+		}
+		.price {
+			display: flex;
+			justify-content: center;
+			padding-top: 25px;
+			align-items: flex-start;
+			gap: 4px;
+		}
+		.price__dollars {
+			display: flex;
+			gap: 3px;
+		}
+		.price__cents {
+			display: flex;
+			flex-direction: column;
+		}
+		.price__name {
+			color: #7a7a8a;
+			font-family: 'Poppins', sans-serif;
+			font-size: 25px;
+			text-align: center;
+			font-weight: bold;
+			padding-top: 24px;
+		}
+		.price__card:nth-child(1) {
+			margin-top: 40px;
+		}
+		.price__card {
+			background-color: #f1f2f5;
+			border-radius: 5px;
+			padding-bottom: 24px;
+		}
+		.price__card:nth-child(2), .price__card:nth-child(3), .price__card:nth-child(4) {
+			margin-top: 16px;
+		}
+		.price__dollar {
+			font-size: 20px;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+			font-weight: bold;
+			align-self: center;
+		}
+		.price__number {
+			font-size: 39.06px;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+			font-weight: bold;
+		}
+		.price__cent {
+			font-weight: bold;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+		}
+		.price__date {
+			font-size: 12.8px;
+			font-family: 'Open Sans', sans-serif;
+			color: #545569;
+		}
+		.price__cents {
+			align-self: center;
+		}
+		.price__benefits {
+			padding-top: 40px;
+			display: flex;
+			flex-direction: column;
+			row-gap: 20px;
+			
+		}
+		.benefit {
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+			color: #545569;
+			
+			margin-left: 34px;
+			margin-right: 24px;
+		}
+		.benefit:last-child {
+			margin-bottom: 0px;
+		}
+		.benefit::before {
+			content: url(../img/Grey_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.price__card:nth-child(3) .benefit::before {
+			content: url(../img//Blue_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.price__card:nth-child(3) .benefit:last-child::before{
+			content: url(../img//Grey_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.main__prices .main__title {
+			padding-top: 32px;
+		}
+		.price__btn .btn__text{
+			background-color: #e4e7ec;
+			margin-left: 24px;
+			margin-right: 24px;
+			text-align: center;
+			margin-top: 40px;
+			padding-top: 12px;
+			padding-bottom: 12px;
+			border-radius: 5px;
+			text-decoration: none;
+		}
+		.price__btn {
+			text-decoration: none;
+		}
+
+	}	
 }
 @media only screen
 	and (min-device-width: 320px)
@@ -1273,5 +2062,123 @@
 		}
 		.card__btn-container {
 			display: none;
+		}
+		/* -----------------------------------Prices------------------------------------------ */
+		.main__prices {
+			margin-left: 16px;
+			margin-right: 16px;
+		}
+		.price {
+			display: flex;
+			justify-content: center;
+			padding-top: 25px;
+			align-items: flex-start;
+			gap: 4px;
+		}
+		.price__dollars {
+			display: flex;
+			gap: 3px;
+		}
+		.price__cents {
+			display: flex;
+			flex-direction: column;
+		}
+		.price__name {
+			color: #7a7a8a;
+			font-family: 'Poppins', sans-serif;
+			font-size: 25px;
+			text-align: center;
+			font-weight: bold;
+			padding-top: 24px;
+		}
+		.price__card:nth-child(1) {
+			margin-top: 40px;
+		}
+		.price__card {
+			background-color: #f1f2f5;
+			border-radius: 5px;
+			padding-bottom: 24px;
+		}
+		.price__card:nth-child(2), .price__card:nth-child(3), .price__card:nth-child(4) {
+			margin-top: 16px;
+		}
+		.price__dollar {
+			font-size: 20px;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+			font-weight: bold;
+			align-self: center;
+		}
+		.price__number {
+			font-size: 39.06px;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+			font-weight: bold;
+		}
+		.price__cent {
+			font-weight: bold;
+			font-family: 'Poppins', sans-serif;
+			color: #313244;
+		}
+		.price__date {
+			font-size: 12.8px;
+			font-family: 'Open Sans', sans-serif;
+			color: #545569;
+		}
+		.price__cents {
+			align-self: center;
+		}
+		.price__benefits {
+			padding-top: 40px;
+			display: flex;
+			flex-direction: column;
+			row-gap: 20px;
+			
+		}
+		.benefit {
+			font-size: 12.3px;
+			font-family: 'Open Sans', sans-serif;
+			color: #545569;
+			
+			margin-left: 34px;
+			margin-right: 24px;
+		}
+		.benefit:last-child {
+			margin-bottom: 0px;
+		}
+		.benefit::before {
+			content: url(../img/Grey_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.price__card:nth-child(3) .benefit::before {
+			content: url(../img//Blue_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.price__card:nth-child(3) .benefit:last-child::before{
+			content: url(../img//Grey_check.png);
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+		.main__prices .main__title {
+			padding-top: 32px;
+		}
+		.price__btn .btn__text{
+			background-color: #e4e7ec;
+			margin-left: 24px;
+			margin-right: 24px;
+			text-align: center;
+			margin-top: 40px;
+			padding-top: 12px;
+			padding-bottom: 12px;
+			border-radius: 5px;
+			text-decoration: none;
+		}
+		.price__btn {
+			text-decoration: none;
 		}
 }
