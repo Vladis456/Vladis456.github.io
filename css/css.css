@@ -78,6 +78,7 @@
 		text-align: center;
 		font-family: 'Open Sans', sans-serif;
 		color: #545569;
+		font-size: 20px;
 	}
 	
 	.header__main-btn {
@@ -161,6 +162,7 @@
 		color: #545569;
 		font-family: 'Open Sans', sans-serif;
 		text-align: center;
+		font-size: 20px;
 	}
 	.features__card .card__img {
 		background: no-repeat url(../img/IconColorful.png);
@@ -322,6 +324,7 @@
 		text-align: center;
 		font-family: 'Open Sans', sans-serif;
 		color: #545569;
+		font-size: 18px;
 	}
 	.header-content__bg {
 		background-image: url(../img/3DShapeslg.jpg);
@@ -394,6 +397,7 @@
 		color: #545569;
 		font-family: 'Open Sans', sans-serif;
 		text-align: center;
+		font-size: 18px;
 	}
 	.features__card .card__img {
 		background: no-repeat url(../img/IconColorful.png);
