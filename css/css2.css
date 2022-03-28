@@ -93,7 +93,8 @@
 		.main__item:nth-child(3) {
 			padding-bottom: 156px;
 		}
-		/* -------------------------------------------TESTIMONIALS---------------------------- */
+		
+			/* -------------------------------------------TESTIMONIALS---------------------------- */
 			.main__testimonials .main__title {
 				padding-top: 156px;
 				
@@ -427,7 +428,7 @@
 		.main__item:nth-child(3) {
 			padding-bottom: 64px;
 		}
-		/* -------------------------------------------TESTIMONIALS---------------------------- */
+			/* -------------------------------------------TESTIMONIALS---------------------------- */
 			.main__testimonials .main__title {
 				padding-top: 64px;
 				
@@ -665,7 +666,6 @@
 		.main__item:nth-child(5) {
 			margin-top: 32px;
 		}
-		
 }
 @media only screen
 	and (min-device-width: 992px)
@@ -857,6 +857,7 @@
 		.card__information .card__title .title__text {
 			font-size: 31.25px;
 		}
+		/* -----------------------------------Prices------------------------------------------ */
 		.main__prices {
 			margin-left: 64px;
 			margin-right: 64px;
@@ -1680,6 +1681,7 @@
 		}
 		.main__item:nth-child(3) {
 			padding-bottom: 46px;
+			margin-bottom: 16px;
 		}
 		.portfolio__img-tablet {
 			display: none;
@@ -1886,7 +1888,7 @@
 		}
 
 	}	
-}
+	
 @media only screen
 	and (min-device-width: 320px)
 	and (max-device-width: 374px) {
@@ -1896,6 +1898,7 @@
 		.main__portfolio .main__subtitle {
 			margin-left: 16px;
 			margin-right: 16px;
+			
 		}
 		.portfolio__rows {
 			margin-top: 40px;
@@ -2181,4 +2184,5 @@
 		.price__btn {
 			text-decoration: none;
 		}
-}
+	}
+
