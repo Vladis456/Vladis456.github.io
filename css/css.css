@@ -210,8 +210,19 @@
 		margin-bottom: 24px;
 		text-decoration: none;
 		margin-left: 24px;
-		margin-right: 24px
+		margin-right: 24px;
+		transition-property: background-color;
+		transition-duration: 0.2s;
 	}
+	.card__btn:hover{
+		background-color: #0b6ce3;
+		
+	}
+	.card__btn:hover .btn__text{
+		color: #f0f6ff;
+		
+	}
+
 	.btn__text {
 		font-family: 'Poppins', sans-serif;
 		font-weight: bold;
@@ -219,6 +230,7 @@
 		border-radius: 5px;
 		width: 100px;
 		text-align: center;
+		
 	}
 	.features__card:nth-child(2) .card__img{
 		background: no-repeat url(../img/IconColorful2.png);
@@ -378,10 +390,10 @@
 		margin-bottom: 16px;
 	}
 	.main__about {
-		padding: 100px 219px 100px 219px;
+		padding: 50px 219px 50px 219px;
 	}
 	.main__features {
-		padding: 100px 219px 100px 219px;
+		padding: 50px 219px 50px 219px;
 	}
 	.main__title {
 		margin-bottom: 20px;
@@ -397,7 +409,6 @@
 		color: #545569;
 		font-family: 'Open Sans', sans-serif;
 		text-align: center;
-		font-size: 18px;
 	}
 	.features__card .card__img {
 		background: no-repeat url(../img/IconColorful.png);
@@ -409,8 +420,9 @@
 	.features__column {
 		margin-top: 64px;
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
-		gap: 32px;
+		gap: 16px;
 	}
 	.features__card {
 		background-color: #f1f2f5;
@@ -418,7 +430,7 @@
 		justify-content: center;
 		flex-direction: column;
 		align-items: center;
-		
+		width: 252px;
 	}
 	.card__title, .card__subtitle {
 		text-align: center;
@@ -445,14 +457,24 @@
 		margin-bottom: 24px;
 		text-decoration: none;
 		margin-left: 24px;
-		margin-right: 24px
+		margin-right: 24px;
+		transition-property: background-color;
+		transition-duration: 0.2s;
+	}
+	.card__btn:hover{
+		background-color: #0b6ce3;
+		
+	}
+	.card__btn:hover .btn__text{
+		color: #f0f6ff;
+		
 	}
 	.btn__text {
 		font-family: 'Poppins', sans-serif;
 		font-weight: bold;
 		color: #545569;
 		border-radius: 5px;
-		width: 234px;
+		width: 200px;
 		text-align: center;
 	}
 	.features__card:nth-child(2) .card__img{
@@ -680,7 +702,17 @@
 		margin-bottom: 24px;
 		text-decoration: none;
 		margin-left: 24px;
-		margin-right: 24px
+		margin-right: 24px;
+		transition-property: background-color;
+		transition-duration: 0.2s;
+	}
+	.card__btn:hover{
+		background-color: #0b6ce3;
+		
+	}
+	.card__btn:hover .btn__text{
+		color: #f0f6ff;
+		
 	}
 	.btn__text {
 		font-family: 'Poppins', sans-serif;
@@ -969,6 +1001,16 @@
 		padding: 12px 72px 12px 72px;
 		margin-bottom: 24px;
 		text-decoration: none;
+		transition-property: background-color;
+		transition-duration: 0.2s;
+	}
+	.card__btn:hover{
+		background-color: #0b6ce3;
+		
+	}
+	.card__btn:hover .btn__text{
+		color: #f0f6ff;
+		
 	}
 	.btn__text {
 		font-family: 'Poppins', sans-serif;
@@ -1202,6 +1244,18 @@
 	.main__title {
 		margin-bottom: 20px;
 	}
+	.main__item:nth-child(2) .main__subtitle {
+		margin-left: 44px;
+		margin-right: 44px;
+	}
+	.main__item:nth-child(5) .main__subtitle {
+		margin-left: 44px;
+		margin-right: 44px;
+	}
+	.main__item:nth-child(6) .main__subtitle {
+		margin-left: 44px;
+		margin-right: 44px;
+	}
 	.title {
 		font-size: 31.25px;
 		font-family: 'Poppins', sans-serif;
@@ -1257,6 +1311,16 @@
 		padding: 12px 50px 12px 50px;
 		margin-bottom: 24px;
 		text-decoration: none;
+		transition-property: background-color;
+		transition-duration: 0.2s;
+	}
+	.card__btn:hover{
+		background-color: #0b6ce3;
+		
+	}
+	.card__btn:hover .btn__text{
+		color: #f0f6ff;
+		
 	}
 	.btn__text {
 		font-family: 'Poppins', sans-serif;
@@ -1542,6 +1606,16 @@
 		padding: 12px 88px 12px 88px;
 		margin-bottom: 24px;
 		text-decoration: none;
+		transition-property: background-color;
+		transition-duration: 0.2s;
+	}
+	.card__btn:hover{
+		background-color: #0b6ce3;
+		
+	}
+	.card__btn:hover .btn__text{
+		color: #f0f6ff;
+		
 	}
 	.btn__text {
 		font-family: 'Poppins', sans-serif;
@@ -1823,9 +1897,18 @@
 		background-color: #E4E7EC;
 		padding: 12px 64px 12px 64px;
 		margin-bottom: 24px;
-		
+		transition-property: background-color;
+		transition-duration: 0.2s;
 		
 		text-decoration: none;
+	}
+	.card__btn:hover{
+		background-color: #0b6ce3;
+		
+	}
+	.card__btn:hover .btn__text{
+		color: #f0f6ff;
+		
 	}
 	.btn__text {
 		font-family: 'Poppins', sans-serif;
